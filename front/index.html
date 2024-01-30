@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PokeApi</title>
+</head>
+<body>
+    <h1>Esto es el pokeinput</h1>
+    
+    <label for="pokemonName">Introduce el nombre de tu pokemon</label>
+    <input type="text" id="pokemonName" placeholder="pikachu">
+    <!-- Este botón inicializa la función getPokemonInfo de la linea 1 de script.js 
+        el nombre de la función corresponde en ambos archivos -->
+    <button onclick="getPokemonInfo()">Obtener información</button> 
+    <!-- Este id se ha creado para poder en un segundo momento imprimir el Template-->
+    <div id="pokemonInfo"></div>
+    <!-- El script está correctamente enlazado-->
+    <script src="./scripts/script.js"></script>
+</body>
+</html>
